@@ -36,6 +36,7 @@
   "name":"psgm17",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_mantel","path":"sprites/spr_mantel/spr_mantel.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
