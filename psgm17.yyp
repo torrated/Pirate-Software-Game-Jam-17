@@ -35,8 +35,11 @@
   },
   "name":"psgm17",
   "resources":[
+    {"id":{"name":"obj_juego","path":"objects/obj_juego/obj_juego.yy",},},
+    {"id":{"name":"obj_mosca","path":"objects/obj_mosca/obj_mosca.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_mantel","path":"sprites/spr_mantel/spr_mantel.yy",},},
+    {"id":{"name":"spr_mosca","path":"sprites/spr_mosca/spr_mosca.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
