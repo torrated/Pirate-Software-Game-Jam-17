@@ -31,6 +31,7 @@
     {"id":{"name":"obj_mosca","path":"objects/obj_mosca/obj_mosca.yy",},},
     {"id":{"name":"obj_pause","path":"objects/obj_pause/obj_pause.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
     {"id":{"name":"spr_mantel","path":"sprites/spr_mantel/spr_mantel.yy",},},
     {"id":{"name":"spr_mosca","path":"sprites/spr_mosca/spr_mosca.yy",},},
     {"id":{"name":"spr_pause","path":"sprites/spr_pause/spr_pause.yy",},},
