@@ -1,0 +1,7 @@
+/// @description Pause
+
+if (estado_es_pausa())
+	estado_set_normal();
+else
+	estado_set_pausa();
+	
