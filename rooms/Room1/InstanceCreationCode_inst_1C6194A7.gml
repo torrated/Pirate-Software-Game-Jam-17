@@ -1,0 +1,1 @@
+tipo = TIPO_REBOTE.DERECHA;
