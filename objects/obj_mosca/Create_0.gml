@@ -7,7 +7,7 @@ velocidad_anterior = 0;
 velocidad_animacion_anterior = 0;
 
 rebote_activo = false;
-rebote_max = 10;
+rebote_max = 0;
 rebote_i = 0;
 
 

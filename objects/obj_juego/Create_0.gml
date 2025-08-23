@@ -10,6 +10,16 @@ enum ESTADOS_JUEGO
 
 estado = ESTADOS_JUEGO.NORMAL;
 
+cursor_sprite = spr_sombra;
+
+
+
+
+
+
+
+
+
 
 function estado_es_pausa()
 {

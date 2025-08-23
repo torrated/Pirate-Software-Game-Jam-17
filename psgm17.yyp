@@ -38,6 +38,7 @@
     {"id":{"name":"spr_mosca","path":"sprites/spr_mosca/spr_mosca.yy",},},
     {"id":{"name":"spr_pause","path":"sprites/spr_pause/spr_pause.yy",},},
     {"id":{"name":"spr_rosa","path":"sprites/spr_rosa/spr_rosa.yy",},},
+    {"id":{"name":"spr_sombra","path":"sprites/spr_sombra/spr_sombra.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
