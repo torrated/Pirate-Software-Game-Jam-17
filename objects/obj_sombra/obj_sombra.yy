@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_juego",
+  "%Name":"obj_sombra",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":27,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":13,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_juego",
+  "name":"obj_sombra",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_sombra",
+    "path":"sprites/spr_sombra/spr_sombra.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

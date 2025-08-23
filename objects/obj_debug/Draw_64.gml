@@ -13,4 +13,9 @@ with (obj_mosca)
 	//draw_text(x,y+15,$"x,y,dir: {direction}");
 }
 
+with (obj_sombra)
+{
+	draw_text(x,y,$"hits: {numero_moscas_golpeadas}");
+}
+
 draw_set_color(_color);
