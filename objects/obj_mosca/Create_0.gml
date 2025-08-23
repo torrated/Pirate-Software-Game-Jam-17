@@ -52,3 +52,9 @@ function Rebotar(_rebote)
 		alarm[0] = 1; // para desactivar rebote_activo al cabo de un tiempo
 	}
 }
+
+
+function cambiar_sprite_a_muerte()
+{
+	sprite_index = spr_mosca_aplastada;
+}

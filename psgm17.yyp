@@ -39,6 +39,7 @@
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
     {"id":{"name":"spr_hit","path":"sprites/spr_hit/spr_hit.yy",},},
     {"id":{"name":"spr_mantel","path":"sprites/spr_mantel/spr_mantel.yy",},},
+    {"id":{"name":"spr_mosca_aplastada","path":"sprites/spr_mosca_aplastada/spr_mosca_aplastada.yy",},},
     {"id":{"name":"spr_mosca","path":"sprites/spr_mosca/spr_mosca.yy",},},
     {"id":{"name":"spr_pause","path":"sprites/spr_pause/spr_pause.yy",},},
     {"id":{"name":"spr_rosa","path":"sprites/spr_rosa/spr_rosa.yy",},},

@@ -58,6 +58,7 @@ function estado_set_golpear()
 	var _hit = instance_create_layer(x,y,layer,obj_hit);
 	var _sombra = instance_create_layer(mouse_x,mouse_y,layer,obj_sombra);
 	_sombra.contar_moscas_golpeadas();
+	_sombra.matar_moscas();
 	
 	cursor_disable_sombra();
 	
