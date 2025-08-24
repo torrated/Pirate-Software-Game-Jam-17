@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hit",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_missed",
+  "eventList":[],
   "managed":true,
-  "name":"obj_hit",
+  "name":"obj_missed",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_missed",
+    "path":"sprites/spr_missed/spr_missed.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

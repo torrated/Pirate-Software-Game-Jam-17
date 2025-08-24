@@ -55,17 +55,19 @@ function estado_set_pausa()
 function estado_set_golpear()
 {
 	estado = ESTADOS_JUEGO.GOLPEAR;
-	var _hit = instance_create_layer(x,y,layer,obj_hit);
-	var _sombra = instance_create_layer(mouse_x,mouse_y,layer,obj_sombra);
-	_sombra.contar_moscas_golpeadas();
-	_sombra.matar_moscas();
+	
+	with (obj_mosca) { Detener(); }
 	
 	cursor_disable_sombra();
+	var _sombra = instance_create_layer(mouse_x,mouse_y,layer,obj_sombra);
 	
-	with (obj_mosca)
+	if (_sombra.contar_moscas_golpeadas() > 0)
 	{
-		Detener();
+		var _clear = instance_create_layer(0,0,layer,obj_clear);
+		_sombra.matar_moscas();
 	}
+	else
+		var _missed = instance_create_layer(0,0,layer,obj_missed);
 }
 
 

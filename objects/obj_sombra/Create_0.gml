@@ -7,6 +7,7 @@ function contar_moscas_golpeadas()
 {
 	var _ordered_by_distance = false;
 	numero_moscas_golpeadas = instance_place_list(x,y,obj_mosca,lista,_ordered_by_distance);
+	return numero_moscas_golpeadas;
 }
 
 function matar_moscas()
