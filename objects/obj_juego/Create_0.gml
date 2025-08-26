@@ -12,6 +12,8 @@ enum ESTADOS_JUEGO
 estado = ESTADOS_JUEGO.NORMAL;
 cursor_set_sombra();
 
+nivel = 1;
+
 
 
 function estado_es_pausa()
@@ -65,9 +67,25 @@ function estado_set_golpear()
 	{
 		var _clear = instance_create_layer(0,0,layer,obj_clear);
 		_sombra.matar_moscas();
+		estado = ESTADOS_JUEGO.COMPLETE;
 	}
 	else
+	{
 		var _missed = instance_create_layer(0,0,layer,obj_missed);
+		estado = ESTADOS_JUEGO.GAME_OVER;
+	}
+}
+
+function estado_set_gameover()
+{
+	if (estado <> ESTADOS_JUEGO.GAME_OVER)
+	{
+		estado = ESTADOS_JUEGO.GAME_OVER;
+		with (obj_mosca) { Detener(); }
+	
+		cursor_disable_sombra();
+		var _gameover = instance_create_layer(0,0,layer,obj_gameover);
+	}
 }
 
 

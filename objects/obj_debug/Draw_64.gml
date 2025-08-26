@@ -3,7 +3,7 @@
 var _color = draw_get_color();
 
 draw_set_color(c_black);
-draw_text(10,10,$"Instancias: {instance_count}");
+//draw_text(10,10,$"Instancias: {instance_count}");
 
 with (obj_mosca)
 {

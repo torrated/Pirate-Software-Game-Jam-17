@@ -1,7 +1,9 @@
 /// @description 
 
 speed = 3;
-direction = image_angle + 90;
+//direction = image_angle + 90;
+direction = irandom_range(0,359);
+image_angle = direction - 90
 
 velocidad_anterior = 0;
 velocidad_animacion_anterior = 0;
